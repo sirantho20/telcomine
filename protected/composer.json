@@ -1,7 +1,8 @@
 {
 	"require": {
 			
-			"swiftmailer/swiftmailer": "5.1.*@dev"
+			"swiftmailer/swiftmailer": "5.1.*@dev",
+                        "drmabuse/yii-bootstrap-3-module": "dev-master"
 
 		   }
 }

@@ -3,8 +3,48 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d1df79513ecc25d2df5193d837faee23",
+    "hash": "e1631e447853332aa8bc59aedf7423f0",
     "packages": [
+        {
+            "name": "drmabuse/yii-bootstrap-3-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module.git",
+                "reference": "0d65fa357f414d958bb33279487401a82a7ac6ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module/get/0d65fa357f414d958bb33279487401a82a7ac6ba.zip",
+                "reference": "0d65fa357f414d958bb33279487401a82a7ac6ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Brewing",
+                    "email": "pascalbrewing@gmail.com",
+                    "homepage": "http://pascal-breiwng.de/",
+                    "role": "Founder and development"
+                }
+            ],
+            "description": "Yii Web Widgets",
+            "homepage": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module",
+            "keywords": [
+                "bootstrap",
+                "extension",
+                "framework",
+                "yii"
+            ],
+            "time": "2014-03-14 10:22:41"
+        },
         {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
@@ -65,7 +105,8 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "swiftmailer/swiftmailer": 20
+        "swiftmailer/swiftmailer": 20,
+        "drmabuse/yii-bootstrap-3-module": 20
     },
     "platform": [
 

@@ -51,5 +51,47 @@
             "mail",
             "mailer"
         ]
+    },
+    {
+        "name": "drmabuse/yii-bootstrap-3-module",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module.git",
+            "reference": "0d65fa357f414d958bb33279487401a82a7ac6ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module/get/0d65fa357f414d958bb33279487401a82a7ac6ba.zip",
+            "reference": "0d65fa357f414d958bb33279487401a82a7ac6ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-03-14 10:22:41",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Pascal Brewing",
+                "email": "pascalbrewing@gmail.com",
+                "homepage": "http://pascal-breiwng.de/",
+                "role": "Founder and development"
+            }
+        ],
+        "description": "Yii Web Widgets",
+        "homepage": "https://bitbucket.org/DrMabuse/yii-bootstrap-3-module",
+        "keywords": [
+            "bootstrap",
+            "extension",
+            "framework",
+            "yii"
+        ]
     }
 ]

@@ -1,0 +1,23 @@
+2014/03/20 13:39:00 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\xampp\htdocs\telcomine\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\xampp\htdocs\framework\web\CAssetManager.php:138
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 C:\xampp\htdocs\framework\web\CClientScript.php(510): CAssetManager->publish('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#4 C:\xampp\htdocs\framework\web\CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#5 C:\xampp\htdocs\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 C:\xampp\htdocs\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html ...')
+#7 C:\xampp\htdocs\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html ...')
+#8 C:\xampp\htdocs\telcomine\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\telcomine\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/telcomine/index.php?r=site/login
+HTTP_REFERER=http://localhost/telcomine/
+---
