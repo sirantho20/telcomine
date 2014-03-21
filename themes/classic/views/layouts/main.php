@@ -32,11 +32,13 @@
   <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
+      <div class="row">
+          
       <?php
-      
+      include('nav.php');
             echo $content;
       ?>
-
+      </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
   </body>

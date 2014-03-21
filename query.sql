@@ -1,0 +1,1 @@
+ALTER TABLE pm_checklist ADD FOREIGN KEY (verified_by) REFERENCES users(username) ON DELETE SET NULL ON UPDATE CASCADE

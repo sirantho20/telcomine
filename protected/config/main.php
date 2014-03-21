@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Telcomine',
         'theme' => 'classic',
     
         'aliases'=> array(
@@ -41,6 +41,10 @@ return array(
 
 	// application components
 	'components'=>array(
+            
+                'BsHtml' => array(
+                    'class' => 'bootstrap.helpers.BsHtml'
+                ),
                 'bootstrap' => array(
                     'class' => 'bootstrap.components.BsApi'
                 ),

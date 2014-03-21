@@ -208,10 +208,10 @@ DROP TABLE IF EXISTS `pm_checklist` ;
 CREATE TABLE IF NOT EXISTS `pm_checklist` (
   `id` INT NULL AUTO_INCREMENT,
   `field` INT NOT NULL,
-  `site_id` VARCHAR(45) NOT NULL,
+  `site_id` VARCHAR(45) NULL,
   `check_flag` CHAR NOT NULL,
   `check_date` DATE NOT NULL,
-  `checked_by` VARCHAR(45) NOT NULL,
+  `checked_by` VARCHAR(45) NULL,
   `check_entry_by` VARCHAR(45) NULL,
   `check_entry_date` DATE NULL,
   `comment` TEXT NULL,
